@@ -1,0 +1,54 @@
+style.css
+*  /* indicate global attribute for lettering in the portfolio site */
+{
+    box-sizing:border-box;
+    padding: 0;
+    margin:0;
+}
+
+body
+{
+    background-color:pink;
+}
+/* bckground color for the portfoilio will be pink */
+
+h1
+{
+    color:whitesmoke;
+    display:inline-block;
+    
+}
+h2
+{
+    color: white;
+    padding:40px;
+    size:10px;
+}
+
+.header div {
+    padding: 15px;
+    /* creating the top header to appear in a float manner, but it didnt work!*/
+}
+header.h4
+{
+    color: white;
+    padding:40px;
+    size:10px;
+}
+
+.aboutme h2,
+.work h2,
+.contactme h2{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+ img src{
+     size: 200px;
+
+
+}
+footer {
+    text-align: center;
+    
+}
