@@ -1,54 +1,117 @@
 style.css
-*  /* indicate global attribute for lettering in the portfolio site */
-{
-    box-sizing:border-box;
-    padding: 0;
-    margin:0;
+*  /* indicate global attribute for lettering in the portfolio site */ {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-body
-{
-    background-color:pink;
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
 }
 /* bckground color for the portfoilio will be pink */
 
-h1
-{
-    color:whitesmoke;
-    display:inline-block;
-    
+h1 {
+  color: whitesmoke;
+  display: inline-block;
 }
-h2
-{
-    color: white;
-    padding:40px;
-    size:10px;
+h2 {
+  color: white;
+  padding: 40px;
+  size: 10px;
 }
 
-.header div {
-    padding: 15px;
-    /* creating the top header to appear in a float manner, but it didnt work!*/
+a,
+li,
+a:active {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 24px;
 }
-header.h4
-{
-    color: white;
-    padding:40px;
-    size:10px;
+
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25vw;
+}
+
+.header__title {
+  font-size: 82px;
+  font-weight: 700;
+}
+.header div {
+  padding: 15px;
+  /* creating the top header to appear in a float manner, but it didnt work!*/
+}
+header.h4 {
+  color: white;
+  padding: 40px;
+  size: 10px;
 }
 
 .aboutme h2,
 .work h2,
-.contactme h2{
-    margin-bottom: 10px;
-    font-size: 20px;
+.contactme h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
 }
 
- img src{
-     size: 200px;
-
-
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-footer {
-    text-align: center;
-    
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 40vw;
+}
+.section__headings {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.section img {
+  width: 50%;
+}
+.section__details {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  margin-top: 24px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer h6 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.footer li {
+  margin-bottom: 10px;
 }
