@@ -105,6 +105,17 @@ header.h4 {
   text-align: center;
 }
 
+.Github h6 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.Github li {
+  text-align: center;
+}
+
 .footer h6 {
   text-align: center;
   font-size: 28px;
